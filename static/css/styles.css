@@ -1,0 +1,144 @@
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+    h4 li{
+    list-style-type: none;
+    }
+    
+    .navigation{
+	margin:20px;
+	
+    }
+  .navigation ul {
+    margin-top: 10px;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  nav li {
+      margin-top: 0px;
+    font-weight: 100px;
+    font-size: 20px; 
+    letter-spacing: 2px;
+    padding: 20px;
+    border-right-style: solid;
+    border-spacing: 35px;
+    border-size: 50px;
+    display: inline;
+    float: left;
+  }
+  head {
+      margin-top: 20px;
+  }
+  .navigation li a:hover{
+  background-color: #555;
+  color: white;
+  }
+
+  .navigation li {
+      display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  }
+		       
+  .navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  #banner {
+    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+  
+  #banner .content h1 {
+    border: 3px solid white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #main {
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  h2 {
+    border: 1px dotted;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  h3 {
+    color: red;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+  }
+  
+  .pull-quote {
+  }
+  
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+  }
+ nav li{
+    list-style-type: none;
+    display: inline;
+ }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+  }
