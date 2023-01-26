@@ -50,6 +50,9 @@ body {
     font-weight: 700;
     letter-spacing: 4px;
   }
+  #div_info ul{
+      list-style-type: none;
+  }
   
   #banner {
     background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
